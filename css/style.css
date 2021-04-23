@@ -462,6 +462,33 @@ and (max-width: 1000px) {
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
     }
+    
+    input[type=text], select, textarea {
+        width: 100%; 
+        padding: 4px; 
+        border-radius: 4px; 
+        box-sizing: border-box; 
+        margin-top: 1px; 
+        margin-bottom: 1px; 
+        resize: vertical
+      }
+      
+      input[type=submit] {
+        background-color: gray;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+        
+      .contact_2 {
+        border-radius: 3%;
+        background-color: #564C4D;
+        height: 600px; 
+        width: 400px; 
+        padding: 20px;
+      }
 }
 
 
